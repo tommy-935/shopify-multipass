@@ -1,0 +1,19 @@
+{
+  "name": "@tommy-935/shopify-multipass",
+  "version": "1.0.0",
+  "description": "shopify multipass lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "node lib/index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "shopify",
+    "multipass"
+  ],
+  "engines": {
+		"node": ">=18"
+	},
+  "author": "tommy",
+  "license": "ISC"
+}

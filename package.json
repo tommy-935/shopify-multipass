@@ -1,6 +1,6 @@
 {
   "name": "@tommy-935/shopify-multipass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "shopify multipass lib",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,11 @@
     "shopify",
     "multipass"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommy-935/shopify-multipass.git"
+  },
+  "homepage": "https://github.com/tommy-935/shopify-multipass",
   "engines": {
 		"node": ">=18"
 	},

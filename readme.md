@@ -4,6 +4,8 @@
 
 ## Installation
 
+# ignore npm install --save-dev typescript ts-node
+
 ```
 npm install @tommy-935/shopify-multipass
 ```

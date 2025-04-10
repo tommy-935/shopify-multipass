@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+  //  "target": "ESNext",          // target compile
+    "module": "ESNext",        //  Node.js module
+    "moduleResolution": "node",  // use Node.js 
+    "esModuleInterop": true,     // compatible CommonJS ES Modules
+    "strict": true,              // Enable all strict type checks
+    "skipLibCheck": true,        // Skip library file check (improve compilation speed)
+    "outDir": "./dist",          // 
+    "rootDir": "./",             // source code dir
+    "allowJs": true             // Allow compiling JS files (if your package is JS)
+  },
+  "include": ["test/**/*.ts"],   // Only process test files
+  "exclude": ["node_modules"]    // excude directory
+}

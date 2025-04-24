@@ -1,0 +1,35 @@
+{
+  "name": "@tommy-935/shopify-multipass",
+  "version": "1.0.4",
+  "description": "shopify multipass lib",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/test.js",
+    "test:ts": "node --loader ts-node/esm test/test.ts"
+  },
+  "type": "module",
+  "keywords": [
+    "shopify",
+    "multipass"
+  ],
+  "exports": {
+    "types": "./lib/index.d.ts",
+    "default": "./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommy-935/shopify-multipass.git"
+  },
+  "homepage": "https://github.com/tommy-935/shopify-multipass",
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "tommy",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
